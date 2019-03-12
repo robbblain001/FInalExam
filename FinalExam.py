@@ -218,11 +218,53 @@ def shocks():
     alex.forward(100)
 
 
-alex.setposition(90, -90)
-shocks()
-alex.setposition(95, -90)
-left(45)
-shocks()
+def shocks2():
+    alex.pendown()
+    alex.forward(4)
+    alex.right(45)
+    alex.forward(7)
+    alex.left(90)
+    alex.forward(7)
+    alex.right(90)
+    alex.forward(7)
+    alex.left(90)
+    alex.forward(7)
+    alex.right(90)
+    alex.forward(7)
+    alex.penup()
+    alex.forward(100)
+
+
+alex.setposition(90, -91)
+shocks2()
+alex.setposition(95, -91)
+alex.left(45)
+shocks2()
+alex.setposition(103, -91)
+alex.left(45)
+shocks2()
+alex.setposition(108, -91)
+alex.left(45)
+shocks2()
+
+
+alex.setposition(-99, -91.5)
+alex.left(45)
+shocks2()
+alex.setposition(-104, -91.5)
+alex.left(45)
+shocks2()
+alex.setposition(-113, -91.5)
+alex.left(45)
+shocks2()
+alex.setposition(-118, -91.5)
+alex.left(45)
+shocks2()
+
+
+def mirrors():
+    alex.setposition(90, 50)
+    alex.left(90)
 
 
 
@@ -232,13 +274,7 @@ shocks()
 
 
 
-
-
-
-
-
-
-
+mirrors()
 
 
 
