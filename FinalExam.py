@@ -247,7 +247,7 @@ alex.setposition(108, -91)
 alex.left(45)
 shocks2()
 
-
+#putting the shocks in the right place
 alex.setposition(-99, -91.5)
 alex.left(45)
 shocks2()
@@ -261,20 +261,32 @@ alex.setposition(-118, -91.5)
 alex.left(45)
 shocks2()
 
-
+# drawing mirrors on the side of the truck
 def mirrors():
     alex.setposition(103, -45)
     alex.left(135)
     alex.left(180)
     alex.pendown()
-    alex.setposition(103, -50)
+    alex.forward(15)
+    alex.penup()
+    alex.setposition(103, -53)
     alex.pendown()
     alex.right(90)
-    alex.forward(5)
+    alex.forward(8)
     alex.left(180)
     alex.forward(5)
     alex.right(90)
     alex.forward(15)
+    alex.left(90)
+    alex.forward(12)
+    alex.right(90)
+    alex.forward(20)
+    alex.right(90)
+    alex.forward(35)
+    alex.right(90)
+    alex.forward(20)
+    alex.right(90)
+    alex.forward(16)
 
 
 
@@ -287,6 +299,7 @@ def mirrors():
 
 
 
+# call on mirrors
 
 mirrors()
 
@@ -295,7 +308,7 @@ mirrors()
 
 
 
-
+# end of program that calls the turtle to stop
 
 
 '''
