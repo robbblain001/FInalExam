@@ -29,10 +29,13 @@ def winders():
     alex.forward(65)
     alex.right(45)
     alex.forward(35)
+    alex.penup()
     alex.right(45)
     alex.forward(30)
     alex.right(90)
-    alex.forward(88.5)
+    alex.forward(10)
+    alex.pendown()
+    alex.forward(79)
     alex.penup()
 
 
@@ -274,7 +277,7 @@ def mirrors():
     alex.right(90)
     alex.forward(8)
     alex.left(180)
-    alex.forward(5)
+    alex.forward(8)
     alex.right(90)
     alex.forward(15)
     alex.left(90)
@@ -286,14 +289,11 @@ def mirrors():
     alex.right(90)
     alex.forward(20)
     alex.right(90)
-    alex.forward(16)
-
-
-
-
-
-
-
+    alex.forward(15)
+    alex.left(90)
+    alex.forward(1)
+    alex.penup()
+    alex.forward(100)
 
 
 
@@ -322,7 +322,18 @@ turtle.done()
 
 
 
-
+num = 7
+while num == 7:
+    if num == 7:
+        truck = str(input('Do you like the truck? '))
+        if truck == "yes":
+            print("Thank you, this truck was made by Robb Blain and Ethan Blow in 2nd hour CSSE")
+        else:
+            print("Im sorry to hear that")
+        num = 6
+    else:
+        print("Error")
+        num = 6
 
 
 
