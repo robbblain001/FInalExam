@@ -263,8 +263,10 @@ shocks2()
 
 
 def mirrors():
-    alex.setposition(90, 50)
-    alex.left(90)
+    alex.setposition(97, -45)
+    alex.left(135)
+    alex.left(180)
+
 
 
 
