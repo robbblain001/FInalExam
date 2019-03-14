@@ -190,7 +190,7 @@ alex.forward(10)
 '''
 
 
-
+#draws lights
 def lights():
     alex.setposition(48.5, 3)
     alex.pendown()
@@ -205,7 +205,7 @@ def lights():
 lights()
 
 
-
+#draws first shocks
 def shocks():
     alex.pendown()
     alex.forward(4)
@@ -222,7 +222,7 @@ def shocks():
     alex.penup()
     alex.forward(100)
 
-
+#draws second set of shocks
 def shocks2():
     alex.pendown()
     alex.forward(4)
@@ -328,6 +328,7 @@ turtle.done()
 
 
 
+#this asks about the truck to get input and give information
 
 
 num = 7
