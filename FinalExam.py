@@ -275,18 +275,7 @@ def mirrors():
     alex.forward(8)
     alex.left(180)
     alex.forward(5)
-    alex.right(90)
-    alex.forward(15)
-    alex.left(90)
-    alex.forward(12)
-    alex.right(90)
-    alex.forward(20)
-    alex.right(90)
-    alex.forward(35)
-    alex.right(90)
-    alex.forward(20)
-    alex.right(90)
-    alex.forward(16)
+
 
 
 
