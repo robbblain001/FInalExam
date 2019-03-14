@@ -296,6 +296,16 @@ def mirrors():
     alex.forward(1)
     alex.penup()
     alex.forward(100)
+    alex.forward(5)
+
+
+
+
+
+
+
+
+>>>>>>> mirrors2
 
 # call on mirrors
 
