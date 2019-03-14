@@ -295,10 +295,6 @@ def mirrors():
 
 
 
-
-
-
-
 # call on mirrors
 
 mirrors()
