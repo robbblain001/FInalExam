@@ -204,6 +204,8 @@ def lights():
 
 lights()
 
+
+
 def shocks():
     alex.pendown()
     alex.forward(4)
